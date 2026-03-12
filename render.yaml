@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: warden-bot-engine
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
